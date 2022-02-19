@@ -1,3 +1,128 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
+}
+
+.header {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.container-planet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding: 25px;
+}
+
+.planet {
+  padding: 10px;
+  width: 100%;
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-planet {
+  align-items: center;
+  display: flex;
+}
+
+.name-planet {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.planet-card img {
+  text-align: center;
+}
+
+.planet-card:nth-child( 1 ) {
+  width: 80px;
+}
+
+.planet-card:nth-child( 2 ) {
+  width: 110px;
+}
+
+.planet-card:nth-child( 3 ) {
+  width: 130px;
+}
+
+.planet-card:nth-child( 4 ) {
+  width: 100px;
+}
+
+.planet-card:nth-child( 5 ) {
+  width: 225px;
+}
+
+.planet-card:nth-child( 6 ) {
+  width: 210px;
+}
+
+.planet-card:nth-child( 7 ) {
+  width: 170px;
+}
+
+.planet-card:nth-child( 8 ) {
+  width: 150px;
+}
+
+.missions {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  width: auto;
+}
+
+.container-missions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.mission-card {
+  background-color: rgb(2, 22, 21);
+  border: 1px solid rgb(1, 22, 21);
+  border-radius: 15px;
+  box-shadow: 4px 6px 8px rgb(4, 43, 41);
+  height: 130px;
+  margin: 16px;
+  opacity: 0.7;
+  width: 300px;
+}
+
+.mission-name {
+  border-bottom: 1px solid rgb(129, 126, 126);
+  margin: 10px;
+}
+
+.mission-name h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer {
+  height: 40px;
+  margin-top: 30px;
 }
