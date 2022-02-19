@@ -13,44 +13,45 @@ body {
 }
 
 .header {
+  font-family: Rampart One , cursive;
   font-size: 20px;
   margin: 30px;
 }
 
 .title {
-  font-size: 25px;
+  font-family: Rampart One , cursive;
+  font-size: 30px;
 }
 
 .container-planet {
   display: flex;
-  flex-wrap: wrap;
+  font-family: Patrick Hand , cursive;
+  font-size: 25px;
   justify-content: space-evenly;
   margin-top: 30px;
   padding: 25px;
 }
 
 .planet {
-  padding: 10px;
   width: 100%;
 }
 
 .planet-card {
   display: flex;
   flex-direction: column;
-}
-
-.img-planet {
-  align-items: center;
-  display: flex;
-}
-
-.name-planet {
-  display: flex;
   justify-content: flex-end;
 }
 
-.planet-card img {
-  text-align: center;
+.planet-card:hover {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transform: scale(1.3);
+}
+
+.name-planet {
+  margin-top: 20px;
 }
 
 .planet-card:nth-child( 1 ) {
@@ -86,17 +87,15 @@ body {
 }
 
 .missions {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 20px;
-  width: auto;
+  margin-top: 25px;
 }
 
 .container-missions {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  font-family: Patrick Hand , cursive;
+  font-size: 18px;
   justify-content: center;
   margin-top: 30px;
 }
@@ -112,6 +111,19 @@ body {
   width: 300px;
 }
 
+.mission-card:hover {
+  background-color: rgb(2, 22, 21);
+  border: 1px solid rgb(1, 22, 21);
+  border-radius: 15px;
+  box-shadow: 4px 6px 8px rgb(4, 43, 41);
+  cursor: pointer;
+  height: 130px;
+  margin: 16px;
+  opacity: 1;
+  transform: scale(1.1);
+  width: 300px;
+}
+
 .mission-name {
   border-bottom: 1px solid rgb(129, 126, 126);
   margin: 10px;
@@ -123,6 +135,7 @@ body {
 }
 
 footer {
+  font-family: Patrick Hand , cursive;
   height: 40px;
   margin-top: 30px;
 }

@@ -8,7 +8,7 @@ class Missions extends React.Component {
     return (
       <div className="missions" data-testid="missions">
         <div>
-          <Title headline="Missões" />
+          <Title headline="🚀 Missões" />
         </div>
         <div className="container-missions">
           {
