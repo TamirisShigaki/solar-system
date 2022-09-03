@@ -1,11 +1,11 @@
 # Projeto Solar System
 
 # Contexto
-Este projeto trata-se de um catalogo que mostra os planetas do nosso sistema solar e algumas das missões ja feitas para o espaço pela humanidade.
+Este projeto trata-se de um catálogo  que mostra os planetas do nosso sistema solar e algumas das missões já feitas para o espaço pela humanidade.
 
 Esse projeto foi feito como validação do bloco de `Introdução à React` no modulo de `Front-End` da `Trybe`.
 
-A aplicação tem como objetivo o aprendizado do conceito de componentes no React.
+A aplicação visa o aprendizado do conceito de componentes no React.
 <br>
 
 ### Página(Aplicação)
